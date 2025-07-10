@@ -3,11 +3,48 @@
     margin: 0;
     padding: 0;
 }
+/* NAV */
+
+.nav {
+    height: 150px;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav__links--wrap {
+    display: flex;
+}
+
+.nav__links--edit {
+    padding: 12px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav__onlyone--link {
+    background-color: red;
+    border-radius: 30px;
+    padding: 8px 20px;
+    transition: all 300ms ease;
+}
+
+.nav__onlyone--link:hover {
+    background-color: chartreuse;
+}
 
 .nav__name {
-    height: 100px;
+    font-size: 34px;
+    color: darkorange;
+    text-decoration: underline;
 }
 
-.nav__links {
-    
-}
+/* ABOUT ME */
