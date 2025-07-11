@@ -1,7 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: #242424;
+    text-align: center;
+    margin: 0 24px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: -1;
+}
+
+.about-me__row {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 /* NAV */
 
@@ -48,3 +78,39 @@ li {
 }
 
 /* ABOUT ME */
+
+.img__logo {
+    width: 350px;
+    height: 300px;
+    border-radius: 100%;
+
+}
+
+.img__logo--container{
+    display: flex;
+    justify-content: center;
+}
+
+.img__logo {
+    box-shadow: 0 18px 16px rgba(0, 0, 0, 0.66);
+    margin: 50px;
+    overflow: hidden;
+    width: 70%;
+
+    /* STYLE MY PICTURE */
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.text_color {
+    color: darkorange;
+}
+
+.text_color--name {
+    color: red;
+}
+
+.text_color--para {
+    color: darkorange;
+    font-weight: bold;
+}
